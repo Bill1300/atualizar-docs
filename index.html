@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta property="og:url" content="https://bill1300.github.io/atualizar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+    <meta name="description" content="Documentação do projeto Atualizar.">
+    <meta name="author" content="@Bill1300">
+
+    <title>Atualizar</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Logo -->
+    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="./img/icone.png" rel="shortcut icon" type="image/x-icon">
+    <link href="vendor/FontAwesome/css/all.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="https://bill1300.github.io/atualizar-docs/">
+            <span class="d-none d-lg-block" id="imgBrandNavbar">
+                <img class="img-fluid img-profile rounded-circle mx-auto
+                        mb-0" src="img/imagem.png" draggable="false" alt="Imagem
+                        de ícone">
+            </span>
+        </a>
+        <button class="navbar-toggler" id="navbarButton" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" title="Baixar" href="#baixar">Baixar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" title="Funcionalidades"
+                        href="#funcionalidades">Funcionalidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" title="Ajuda" href="#ajuda">Ajuda</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="adBlockMensagem">
+        <div class="resume-content">
+            <h3 class="mb-0">Notamos que você utiliza um adBlock em seu
+                navegador</h3>
+            <p>Para continuar na página <a class="subheading mb-5"
+                    href="https://support.google.com/chrome/answer/7632919?co=GENIE.Platform%3DDesktop&hl=pt-BR"
+                    target="_blank">desabilite seu bloqueador de anúncios</a>.</p>
+        </div>
+    </div>
+    <div id="content">
+        <div class="container-fluid p-0">
+            <section class="resume-section p-3 p-lg-5 d-flex
+                    align-items-center" id="baixar">
+                <div class="adBar">
+                    <p id="adsSystemContent">&nbsp;</p>
+                </div>
+                <div class="w-100">
+                    <h1 class="mb-0">
+                        <span class="text-primary">Atualizar</span>
+                    </h1>
+                    <kbd>Versão: 22.10.1</kbd>
+                    <div class="subheading mb-1">Desenvolvedor:
+                        Gabriel Ângelo Cerutti
+                    </div>
+                    <div class="subheading mb-5">Diretório:
+                        <a class="subheading mb-5" href="https://github.com/bill1300/atualizar"
+                            target="_blank">github.com/bill1300/atualizar</a>
+                    </div>
+                    <p class="lead mb-5">
+                        Script para atualização completa do sistema Linux,
+                        de modo simples e fácil.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Bill1300/atualizar/archive/refs/heads/main.zip" target="_blank">
+                            <i class="fa-solid fa-file-arrow-down"></i>
+                        </a>
+                        <span class="text-dark mr-3">ou </span>
+                        <kbd><span class="text-secondary">$ </span>wget
+                            https://raw.githubusercontent.com/Bill1300/atualizar/main/atualizar.sh</kbd>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0">
+            <section class="resume-section p-3 p-lg-5 d-flex
+                    justify-content-center" id="funcionalidades">
+                <div class="w-100">
+                    <h2 class="mb-5">Funcionalidades</h2>
+                    <h3 class="mb-0">Atualização</h3>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+
+                        <div class="resume-content">
+                            <div class="subheading mb-3">Atualização de
+                                diretórios instalados</div>
+                            <div class="mb-2">
+                                <kbd>apt update</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Simples</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Padrão</kbd>
+                            </div>
+                            <p>Esse comando ressincronizar os arquivos de
+                                índice de pacotes de suas fontes. As listas
+                                de pacotes disponíveis são obtidas nos
+                                locais especificados em <i>/etc/apt/sources.list</i>.</p>
+                            <p>Dessa forma as informações sobre os pacotes
+                                novos e atualizados sempre estarão
+                                disponíveis.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3">Instalação de
+                                diretórios atualizados</div>
+                            <div class="mb-2">
+                                <kbd>apt upgrade</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Simples</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Padrão</kbd>
+                            </div>
+                            <p>Esse comando instala as versões mais recentes
+                                de todos os pacotes instalados no sistema a
+                                partir das fontes enumeradas em <i>/etc/apt/sources.list</i>.
+                                Pacotes atualmente instalados com novas
+                                versões disponíveis são recuperados e
+                                atualizados; sob nenhuma circunstâncias os
+                                pacotes instalados atualmente são removidos
+                                ou os pacotes ainda não instalados são
+                                recuperados e instalados. Novas versões de
+                                pacotes atualmente instalados que não pode
+                                ser atualizado sem alterar o status de
+                                instalação de outro pacote será deixado em
+                                sua versão atual.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>href="#
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3">Atualização da
+                                distribuição</div>
+                            <div class="mb-2">
+                                <kbd>do-release-upgrade</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Padrão</kbd>
+                            </div>
+                            <p>Este é o comando preferencial se a máquina
+                                não tiver ambiente gráfico ou se a máquina
+                                precisar ser atualizada por meio de uma
+                                conexão remota.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3">Corrigir pacotes
+                                corrompidos</div>
+                            <div class="mb-2">
+                                <kbd>apt install -f</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Simples</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Padrão</kbd>
+                            </div>
+                            <p>Esse comando tentar corrigir um sistema com
+                                dependências quebradas no lugar. Esta opção,
+                                quando usada com instalar/remover, pode
+                                omitir quaisquer pacotes para permitir que o
+                                APT deduza uma solução provável. Se os
+                                pacotes forem especificados, eles devem
+                                corrigir completamente o problema.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3">Limpar o
+                                repositório local</div>
+                            <div class="mb-2">
+                                <kbd>apt autoclean</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Padrão</kbd>
+                            </div>
+                            <p>Esse comando limpa o seu repositório local
+                                removendo os arquivos de pacotes (.deb) que
+                                não podem mais ser baixados (como versões
+                                antigas) e são completamente inúteis e
+                                obsoletos para o sistema.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3">Limpar antigas
+                                dependências</div>
+                            <div class="mb-2">
+                                <kbd>apt autoremove</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Padrão</kbd>
+                            </div>
+                            <p>Esse comando é usado para remover pacotes que
+                                foram instalados automaticamente para
+                                satisfazer dependências de outros pacotes e
+                                que já não são mais necessários.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3">Atualizar programas
+                                Flatpak</div>
+                            <div class="mb-2">
+                                <kbd>flatpak update</kbd>
+                                <kbd class="bg-primary"><i class="fa-solid
+                                            fa-check"></i> Padrão</kbd>
+                            </div>
+                            <p>Esse comando atualiza todos os seus
+                                aplicativos (flatpak) e tempos de execução
+                                instalados para a versão mais recente.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>
+                    <h3 class="mb-0">Aplicativos Flatpak</h3>
+                    <div class="mb-2">
+                        <kbd class="bg-primary"><i class="fa-solid
+                                    fa-check"></i> Padrão</kbd>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <p>Durante a execução é apresentado uma
+                                possibilidade de instalação de outros
+                                programas na máquina, caso for aceito é
+                                listado 10 aplicativos (em 3 páginas) para a
+                                seleção.</p>
+                            <p><strong>➜</strong> Para selecionar um dos
+                                aplicativos, clique no número correspondente
+                                a ele (de <kbd>1</kbd> à <kbd>5</kbd>).</p>
+                            <p><strong>➜</strong> Para ir para próxima
+                                página, clique <kbd>P</kbd>.</p>
+                            <p><strong>➜</strong> Para continuar o processo
+                                instalando os aplicativo,s clique <kbd>S</kbd>.</p>
+                            <p><strong>➜</strong> Para continuar o processo
+                                cancelando a instalação dos aplicativos
+                                selecionados, clique <kbd>N</kbd>.</p>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Aplicativo</th>
+                                        <th scope="col">Link de instalação</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://open.spotify.com" target="_blank">Spotify ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/com.spotify.Client.flatpakref">https://dl.flathub.org/repo/appstream/com.spotify.Client.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://discord.com" target="_blank">Discord ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/com.discordapp.Discord.flatpakref">https://dl.flathub.org/repo/appstream/com.discordapp.Discord.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://web.telegram.org/z/" target="_blank">Telegram
+                                                Desktop ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/org.telegram.desktop.flatpakref">https://dl.flathub.org/repo/appstream/org.telegram.desktop.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://slack.com" target="_blank">Slack ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/com.slack.Slack.flatpakref">https://dl.flathub.org/repo/appstream/com.slack.Slack.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://app.diagrams.net" target="_blank">Draw.io ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/com.jgraph.drawio.desktop.flatpakref">https://dl.flathub.org/repo/appstream/com.jgraph.drawio.desktop.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://code.visualstudio.com" target="_blank">Visual
+                                                Studio Code ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/com.visualstudio.code.flatpakref">https://dl.flathub.org/repo/appstream/com.visualstudio.code.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://www.gitkraken.com" target="_blank">GitKraken ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/com.axosoft.GitKraken.flatpakref">https://dl.flathub.org/repo/appstream/com.axosoft.GitKraken.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://anydesk.com/" target="_blank">AnyDesk ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/com.anydesk.Anydesk.flatpakref">https://dl.flathub.org/repo/appstream/com.anydesk.Anydesk.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://authpass.app" target="_blank">AuthPass ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/app.authpass.AuthPass.flatpakref">https://dl.flathub.org/repo/appstream/app.authpass.AuthPass.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://www.google.com/intl/pt-BR/chrome/" target="_blank">Google
+                                                Chrome ➜</a></td>
+                                        <td><a
+                                                href="https://dl.flathub.org/repo/appstream/com.google.Chrome.flatpakref">https://dl.flathub.org/repo/appstream/com.google.Chrome.flatpakref</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>A página 3 não tem aplicativos listados.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0">
+            <hr class="m-0">
+            <section class="resume-section p-3 p-lg-5 d-flex
+                    align-items-center" id="ajuda">
+                <div class="w-100">
+                    <h2 class="mb-5">Ajuda</h2>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Instalação</h3>
+                            <div class="mb-2"><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>bash
+                                    atualizar.sh</kbd></div>
+                            <p>Esse comando move o arquivo de <i>script</i>
+                                para o diretório
+                                <i>/bin</i> para ser reconhecido como um
+                                comando pelo terminal e cria um diretório
+                                oculto no diretório pessoal (<i>~/.atualizar</i>)
+                                para salvar a imagem de ícone baixada, os
+                                arquivos de registros de execuções e a lista
+                                de histórico.
+                            </p>
+                            <div class="d-flex">
+                                <div class="alert alert-primary" role="alert">
+                                    <i class="fa-solid fa-triangle-exclamation"></i>
+                                    O comando de instalação deve ser
+                                    executado
+                                    no diretório onde está o arquivo de <i>script</i>.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Execução</h3>
+                            <div class="mb-2"><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>atualizar</kbd></div>
+                            <p>Esse comando instala...</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        </div>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Parâmetros</h3>
+                            <div class="subheading mb-3 text-primary">Ajuda
+                                ➜</div>
+                            <p>Use para apresentar os parâmetros de entrada
+                                e outras informações: <kbd>-a</kbd> ou <kbd>--ajuda</kbd>.</p>
+                            <p>Exemplo:</p>
+                            <div><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>atualizar
+                                    --ajuda</kbd></div>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                    <hr>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3 text-primary">Desinstalar
+                                ➜</div>
+                            <p>Use para desinstalar: <kbd>-d</kbd> ou <kbd>--desinstalar</kbd>
+                                (use <kbd>-D</kbd> para desinstalar sem uma
+                                confirmação).</p>
+                            <p>Exemplo:</p>
+                            <div><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>atualizar
+                                    --desinstalar</kbd></div>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="alert alert-primary" role="alert">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            O diretório <i>~/.atualizar</i> também é
+                            removido.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3 text-primary">Modo
+                                "Simples" ➜</div>
+                            <p>Use para executar somente funções simples de
+                                atualização de diretórios, kernel e
+                                distribuição (são as funcionalidades com o
+                                etiqueta <kbd class="bg-primary"><i class="fa-solid fa-check"></i>
+                                    Simples</kbd>): <kbd>-s</kbd> ou
+                                <kbd>--simples</kbd>.
+                            </p>
+                            <p>Exemplo:</p>
+                            <div><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>atualizar
+                                    --simples</kbd></div>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                    <hr>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3 text-primary">Reescrever</div>
+                            <p>Use para baixar e instalar a última versão do
+                                arquivo disponível no GitHub: <kbd>-r</kbd>
+                                ou <kbd>--reescrever</kbd>
+                                (use <kbd>-R</kbd> para reescrever sem uma
+                                confirmação).</p>
+                            <p>Qualquer alteração no código-fonte como lista
+                                de aplicativos alterada será perdida.</p>
+                            <p>Exemplo:</p>
+                            <div><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>atualizar
+                                    --reescrever</kbd></div>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                    <hr>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3 text-primary">Mudar
+                                idioma ➜</div>
+                            <p>Use para mudar o idioma: <kbd>-i</kbd> ou
+                                <kbd>--idioma</kbd>,
+                                seguido da sigla do idioma selecionado. (Por
+                                padrão é selecionado <strong>Português do
+                                    Brasil</strong>).
+                            </p>
+                            <p>As informações de idioma são salvas em: <i>~/.atualizar/dados.list</i></p>
+                            <p>Exemplo:</p>
+                            <div><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>atualizar --idioma
+                                    pt-br</kbd></div>
+                            <br />
+                            <p>Idiomas disponíveis:</p>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Idioma</th>
+                                        <th scope="col">Sigla</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="flag flag-br"></i>Português
+                                            do Brasil</td>
+                                        <td>pt-br</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="flag
+                                                    flag-united-states"></i>United
+                                            States English</td>
+                                        <td>en-us</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                    <hr>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3 text-primary">Mostrar
+                                histórico ➜</div>
+                            <p>Use para apresentar o histórico das últimas
+                                execuções: <kbd>-h</kbd> ou <kbd>--historico</kbd>.</p>
+                            <p>As informações de histórico são salvas em:
+                                <i>~/.atualizar/dados.list</i>
+                            </p>
+                            <p>Exemplo:</p>
+                            <div><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>atualizar
+                                    --historico</kbd></div>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                    <hr>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <div class="subheading mb-3 text-primary">Mostrar
+                                versão ➜</div>
+                            <p>Use para apresentar a versão atual: <kbd>-v</kbd>
+                                ou <kbd>--versao</kbd>.</p>
+                            <p>Exemplo:</p>
+                            <div><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>atualizar
+                                    --versao</kbd></div>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Registros</h3>
+                            <p>A aplicação cria documentos de texto no
+                                diretório <i>~/.atualizar/registros</i>
+                                mostrando
+                                as informações de todas as vezes que
+                                executado.</p>
+                            <p>O arquivo de texto é salvo com a data, nome
+                                do usuário, versões modificadas e pacotes
+                                instalados.</p>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0"><i>Feedback</i></h3>
+                            <p>Você teve algum problema ao executar? Alguma
+                                ideia de funcionalidade nova? <strong><a
+                                        href="https://forms.gle/ysh5avJ1WCGsWeoH6">Escreva
+                                        aqui ➜</a></strong></p>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0">
+        </div>
+        <hr class="m-0">
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Custom scripts for this template -->
+        <script src="js/resume.min.js"></script>
+        <script defer src="js/SystemAds.js"></script>
+</body>
+
+</html>
