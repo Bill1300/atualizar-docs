@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="utf-8">
     <meta property="og:url" content="https://bill1300.github.io/atualizar" />
@@ -51,15 +52,6 @@
             </ul>
         </div>
     </nav>
-    <div id="adBlockMensagem">
-        <div class="resume-content">
-            <h3 class="mb-0">Notamos que você utiliza um adBlock em seu
-                navegador</h3>
-            <p>Para continuar na página <a class="subheading mb-5"
-                    href="https://support.google.com/chrome/answer/7632919?co=GENIE.Platform%3DDesktop&hl=pt-BR"
-                    target="_blank">desabilite seu bloqueador de anúncios</a>.</p>
-        </div>
-    </div>
     <div id="content">
         <div class="container-fluid p-0">
             <section class="resume-section p-3 p-lg-5 d-flex
@@ -71,7 +63,7 @@
                     <h1 class="mb-0">
                         <span class="text-primary">Atualizar</span>
                     </h1>
-                    <kbd>Versão: 23.5.2</kbd>
+                    <kbd>Versão: 23.5.3</kbd>
                     <div class="subheading mb-1">Desenvolvedor:
                         Gabriel Ângelo Cerutti
                     </div>
@@ -87,15 +79,19 @@
                         <a href="https://github.com/Bill1300/atualizar/archive/refs/heads/main.zip" target="_blank">
                             <i class="fa-solid fa-file-arrow-down"></i>
                         </a>
-                        <span class="text-dark mr-3">ou </span>
+                        <span class="text-dark mr-3">ou</span>
                         <kbd><span class="text-secondary">$ </span>wget
                             https://raw.githubusercontent.com/Bill1300/atualizar/main/atualizar.sh</kbd>
                     </div>
-			<br/>
-			<br/>
-			<br/>
-			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional
-			</a>.
+                    <div class="mt-5">
+                        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                                alt="Licença Creative Commons" style="border-width:0"
+                                src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />Este obra está
+                        licenciado com uma Licença <a rel="license"
+                            href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                            Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional
+                        </a>.
+                    </div>
                 </div>
             </section>
             <hr class="m-0">
@@ -525,6 +521,55 @@
                     <div class="resume-item d-flex flex-column flex-md-row
                             justify-content-between mb-5">
                         <div class="resume-content">
+                            <div class="subheading mb-3 text-primary"> Agendar atualizações ➜</div>
+                            <p>Use para agendar atualizações: <kbd>-t</kbd> ou
+                                <kbd>--temporizador</kbd>,
+                                seguido da período selecionado. (Por
+                                padrão, é desativado).
+                            </p>
+                            <p>Exemplo:</p>
+                            <div><kbd><span class="text-secondary"><strong>$
+                                        </strong></span>atualizar --temporizador
+                                    mes</kbd></div>
+                            <br />
+                            <p>Períodos disponíveis:</p>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Descrição</th>
+                                        <th scope="col">Parâmetro</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="flag flag-br"></i>Agenda atualizações todas as <b>horas</b>.</td>
+                                        <td><kbd>hora</kbd> ou <kbd>1</kbd></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="flag flag-br"></i>Agenda atualizações todos os <b>dias</b>.</td>
+                                        <td><kbd>dia</kbd> ou <kbd>2</kbd></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="flag flag-br"></i>Agenda atualizações todas as <b>semana</b>.</td>
+                                        <td><kbd>semana</kbd> ou <kbd>3</kbd></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="flag flag-br"></i>Agenda atualizações todos os <b>meses</b>.</td>
+                                        <td><kbd>mes</kbd> ou <kbd>4</kbd></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="alert alert-primary" role="alert">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                Para deletar os agendamentos de atualizações utilize o parâmetro <kbd>nenhum</kbd> ou <kbd>0</kbd>.
+                            </div>
+                        </div>
+                        <div class="resume-date text-md-right"></div>
+                    </div>
+                    <hr>
+                    <div class="resume-item d-flex flex-column flex-md-row
+                            justify-content-between mb-5">
+                        <div class="resume-content">
                             <div class="subheading mb-3 text-primary">Mostrar
                                 histórico ➜</div>
                             <p>Use para apresentar o histórico das últimas
@@ -594,4 +639,5 @@
         <script src="js/resume.min.js"></script>
         <script defer src="js/SystemAds.js"></script>
 </body>
+
 </html>
