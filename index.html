@@ -275,7 +275,7 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">Aplicativo</th>
-                                        <th scope="col">Link de instalação</th>
+                                        <th scope="col">Endereço</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -368,7 +368,7 @@
                                 para o diretório
                                 <i>/bin</i> para ser reconhecido como um
                                 comando pelo terminal e cria um diretório
-                                oculto no diretório pessoal (<i>~/.atualizar</i>)
+                                oculto no diretório pessoal (<i>~/.atualizar/</i>)
                                 para salvar a imagem de ícone baixada, os
                                 arquivos de registros de execuções e a lista
                                 de histórico.
@@ -431,7 +431,7 @@
                     <div class="d-flex">
                         <div class="alert alert-primary" role="alert">
                             <i class="fa-solid fa-triangle-exclamation"></i>
-                            O diretório <i>~/.atualizar</i> também é
+                            O diretório <i>~/.atualizar/</i> também é
                             removido.
                         </div>
                     </div>
@@ -496,21 +496,21 @@
                             <table class="table table-bordered">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Idioma</th>
-                                        <th scope="col">Sigla</th>
+                                        <th scope="col">Idiomas</th>
+                                        <th scope="col">Parâmetros</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td><i class="flag flag-br"></i>Português
                                             do Brasil</td>
-                                        <td>pt-br</td>
+                                        <td><kbd>pt-br</kbd></td>
                                     </tr>
                                     <tr>
                                         <td><i class="flag
                                                     flag-united-states"></i>United
                                             States English</td>
-                                        <td>en-us</td>
+                                        <td><kbd>en-us</kbd></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -536,8 +536,8 @@
                             <table class="table table-bordered">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Descrição</th>
-                                        <th scope="col">Parâmetro</th>
+                                        <th scope="col">Períodos</th>
+                                        <th scope="col">Parâmetros</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -561,7 +561,8 @@
                             </table>
                             <div class="alert alert-primary" role="alert">
                                 <i class="fa-solid fa-triangle-exclamation"></i>
-                                Para deletar os agendamentos de atualizações utilize o parâmetro <kbd>nenhum</kbd> ou <kbd>0</kbd>.
+                                Para deletar os agendamentos de atualizações utilize o parâmetro <kbd>nenhum</kbd> ou
+                                <kbd>0</kbd>.
                             </div>
                         </div>
                         <div class="resume-date text-md-right"></div>
@@ -581,6 +582,37 @@
                             <div><kbd><span class="text-secondary"><strong>$
                                         </strong></span>atualizar
                                     --historico</kbd></div>
+                            <p>Use para apresentar o histórico das últimas
+                                execuções: <kbd>-h</kbd> ou <kbd>--historico</kbd>.</p>
+                            <p>
+                            <p>Com a adição de um parâmetro é possível exportar a planilha.
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Extensões</th>
+                                        <th scope="col">Parâmetros</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="flag flag-br"></i>Exporta o histórico em uma planilha com extensão
+                                            <b>CSV</b>.</td>
+                                        <td><kbd>csv</kbd></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="flag flag-br"></i>Exporta o histórico em uma planilha com extensão
+                                            <b>XML</b>.</td>
+                                        <td><kbd>xml</kbd></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>A planilha é gerada no diretório <i>~/.atualizar/planinhas/</i>.</p>
+                            <p>Exemplo:</p>
+                            <div>
+                                <kbd><span class="text-secondary"><strong>$
+                                </strong></span>atualizar --historico csv</kbd>
+                            </div>
+                            </p>
                         </div>
                         <div class="resume-date text-md-right"></div>
                     </div>
@@ -604,7 +636,7 @@
                         <div class="resume-content">
                             <h3 class="mb-0">Registros</h3>
                             <p>A aplicação cria documentos de texto no
-                                diretório <i>~/.atualizar/registros</i>
+                                diretório <i>~/.atualizar/registros/</i>
                                 mostrando
                                 as informações de todas as vezes que
                                 executado.</p>
